@@ -1,0 +1,26 @@
+body {
+    background-color: #041324; /* Fondo azul */
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header-image,
+.footer-image {
+    max-width: 100%;
+}
+
+input[type='text'], input[type='password'], textarea {
+    margin: 10px 0;
+}
+
+#error-message {
+    color: red;
+}
